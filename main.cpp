@@ -1,6 +1,17 @@
 #include <iostream>
 
+#include "DataStructure/daMain.h"
+#include "method/mMain.h"
+#include "leetCode/lcmain.h"
+#include "lintCode/lccmain.h"
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    dsMain();
+    leetCodeMain();
+    lintCodeMain();
+    mMain();
+
+    std::cout << "\nHello, World!" << std::endl;
     return 0;
 }
